@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import introMern from '../images/intro-mern.png'
+import introLA from '../images/intro-la.png'
 
 class Main extends React.Component {
   render() {
@@ -57,16 +57,31 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
+          <h2 className="major">Past Project Glance</h2>
+          <span className="image imgMedium">
+            <img src={introMern} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
+          {/* Project 1 */}
+          <div>
+            {/* Project 1 Left Panel */}
+            <div>
+              {/* subtitle */}
+              <h4 className="minor">This porfolio site</h4>
+              {/* technology tags */}
+              <div>
+                <div className="tag">NodeJS</div><div className="tag">React</div><div className="tag">scss</div><div className="tag">GatsbyJS</div><div className="tag">GraphQL</div><div className="tag">Netlify</div>
+              </div>
+              {/* project description */}
+              <div>
+                <p>
+                In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
+                </p>
+              </div>
+            </div>
+            <div>
+
+            </div>
+          </div>
           <p>
             Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
             libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
@@ -76,6 +91,11 @@ class Main extends React.Component {
             libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
             tempus.
           </p>
+
+          <div></div>
+          <div></div>
+
+
           {close}
         </article>
 
@@ -88,7 +108,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+          <img src={introLA} alt="" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
