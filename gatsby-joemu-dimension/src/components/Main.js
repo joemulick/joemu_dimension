@@ -33,24 +33,19 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          I am a full stack web developer and entrepreneur originally from Los Angeles, California. 
+          I am passionate about web development and enjoy discovering new technologies which I can 
+          use to develop websites and useful web applications in my spare time. I am driven and always 
+          looking to tackle the next challenge.
+          <br/>
+          <br/>
+          I currently work at build.com as the lead technical email developer. 
+          Build.com is an innovative e-commerce company based in Chico, CA.
+          <br/>
+          <br/>
+          I attended UCLA extension coding bootcamp which was a tremendous experience where I learned 
+          to create and implement full stack web applications using the most relevent web technologies. 
+          See my skill set below, or check out my <a href="https://github.com/joemulick">github</a>.
           </p>
           {close}
         </article>
